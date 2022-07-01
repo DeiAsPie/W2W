@@ -2,7 +2,7 @@ import sys
 import operator
 
 if (len(sys.argv)) == 1 or sys.argv[1] == "help":
-    print("""Usage :-\n$ ./task add 2 hello world    # Add a new item with priority 2 and text "hello world" to the list\n$ ./task ls                   # Show incomplete priority list items sorted by priority in ascending order\n$ ./task del INDEX            # Delete the incomplete item with the given index\n$ ./task done INDEX           # Mark the incomplete item with the given index as complete\n$ ./task help                 # Show usage\n$ ./task report               # Statistics""")
+    print("""Usage :-\n$ python3 w2w.py add 2 hello world    # Add a new item with priority 2 and text "hello world" to the list\n$ python3 w2w.py ls                   # Show incomplete priority list items sorted by priority in ascending order\n$ python3 w2w.py del INDEX            # Delete the incomplete item with the given index\n$ python3 w2w.py done INDEX           # Mark the incomplete item with the given index as complete\n$ python3 w2w.py help                 # Show usage\n$ python3 w2w.py report               # Statistics""")
     exit()
 
 arg1 = sys.argv[1]
